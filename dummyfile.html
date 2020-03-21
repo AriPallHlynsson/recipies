@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Matur</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">     
+    <link rel="stylesheet" href="/styles.css">
+    <style>/* Flex styles -------------------------------------------------*/
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?2bqfto');
+  src:  url('fonts/icomoon.eot?2bqfto#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2bqfto') format('truetype'),
+    url('fonts/icomoon.woff?2bqfto') format('woff'),
+    url('fonts/icomoon.svg?2bqfto#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mug:before {
+  content: "\e9a2";
+}
+.icon-spoon-knife:before {
+  content: "\e9a3";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-reddit:before {
+  content: "\e902";
+  color: #ff4500;
+}
+.icon-youtube:before {
+  content: "\e900";
+  color: #f00;
+}
+.icon-drink:before {
+  content: "\e901";
+}
+.icon-coffee:before {
+  content: "\e903";
+}
+.icon-mug1:before {
+  content: "\e904";
+}
+.icon-icecream:before {
+  content: "\e905";
+}
+.icon-cake:before {
+  content: "\e906";
+}
+
+
+
+@media (min-width: 700px) {
+ .leading {
+    display: flex;
+    align-items: center;
+  }
+}
+
+header {
+  padding: 5px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(51, 51, 51, 0);
+  width: inline;
+}
+
+
+
+/* Grid styles -------------------------------------------------*/
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+  grid-gap: 30px;
+}
+
+
+/* Generic styles ----------------------------------------------*/
+body {
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: rgb(211, 197, 174);
+}
+
+
+
+
+
+@media (min-width: 700px) {
+}
+
+
+
+.cards {
+  max-width: 960px;
+  margin: 0 auto 30px;
+}
+
+article {
+  position: relative;
+  max-width: 550px;
+}
+
+.article-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+ 
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+  float: right;
+  word-spacing: 1px;
+}
+div {
+  width: 150px;
+  height: 290px;
+  padding: none;
+  border: 2px solid gray;
+  border-style: dashed;
+  margin: 0;
+}
+
+    a { text-decoration: none; }
+    a { color: #000;}
+
+</style>
+
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <p style="text-align:left;">
+        With a little help from my friends
+        <span style="float:right;">
+            <a href="/verkefni4.html"><span class="icon-menu"></span>
+            Extras</a>
+            <a href=""><span class="icon-coffee"></span>
+            Starters</a>
+          <a href=""><span class="icon-spoon-knife"></span>
+          Main Courses</a>
+          <a href=""><span class="icon-icecream"></span>
+          Desserts</a>
+          <a href="">     <span class="icon-mug"></span>
+          Drinks</a>
+
+          
+          
+        
+        </span>
+    </p>
+      
+    </header>
+    
+  </p>
+  <span style="float:right;">
+  <div></div>
+  </span>
+      <img src="/fonts/my-recipes.svg" alt="Icon" style="width:75%;height:75%;">
+        <p></p><p></p><article>
+        Í 4. verkefni búum við til nýja forsíðu á uppskriftarvefinn
+        og notum SVG tákn í lógó og leturtákn í
+        efnisyfirliti. Til að byrja með notum við vefsíðurnar úr 3. verkefni sem undirsíður og höfum aðra tengla í
+          efnisyfirlitinu óvirka. 
+        </p>
+       
+          </article>
+      
+    <main>
+  
+
+
+      </section>
+      <section class="cards">
+        <article>
+          <img class="article-img" src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2014/05/beetroot-feta-grain-salad.jpg " alt="" />
+         
+        </article>
+        <article>
+          <img class="article-img" src="https://www.sprinklesandsprouts.com/wp-content/uploads/2014/12/Turkish-Bread-3.jpg" alt=" " />
+          
+        </article>
+        <article>
+          <img class="article-img" src="https://thenypost.files.wordpress.com/2018/11/turkey-dinner-costing-new-yorkers-22-percent-more-this-year.jpg?quality=80&strip=all" alt=" " />
+          
+        </article>
+        <article>
+          <img class="article-img" src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2018/09/dessert-main-image-molten-cake.jpg" alt=" " />
+         
+        </article>
+            </section>
+    </main>
+  </body>
+</html>
