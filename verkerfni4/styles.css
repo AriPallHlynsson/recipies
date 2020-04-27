@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?2bqfto');
+  src:  url('fonts/icomoon.eot?2bqfto#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2bqfto') format('truetype'),
+    url('fonts/icomoon.woff?2bqfto') format('woff'),
+    url('fonts/icomoon.svg?2bqfto#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mug:before {
+  content: "\e9a2";
+}
+.icon-spoon-knife:before {
+  content: "\e9a3";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-reddit:before {
+  content: "\e902";
+  color: #ff4500;
+}
+.icon-youtube:before {
+  content: "\e900";
+  color: #f00;
+}
+.icon-drink:before {
+  content: "\e901";
+}
+.icon-coffee:before {
+  content: "\e903";
+}
+.icon-mug1:before {
+  content: "\e904";
+}
+.icon-icecream:before {
+  content: "\e905";
+}
+.icon-cake:before {
+  content: "\e906";
+}
+.icon-nintendoswitch:before {
+  content: "\e908";
+  color: #e60012;
+}
+@media (min-width: 1281px) {
+  
+  .leading {
+    display: flex;
+    align-items: center;
+  }
+}
+
+header {
+  padding: none;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(51, 51, 51, 0);
+}
+
+.texti{
+  max-width: 80%;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: rgb(211, 197, 174);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: none;
+}
+
+
+article {
+  position: center;
+}
+
+.article-img {
+
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  padding: 3px;}
+
+
+
+.alignright {
+  float: right;
+  word-spacing: 1px;}
+
+
+div{
+  width: 200px;
+  height: 250px;
+  border: black;
+  border-width: 3px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+
+    a { text-decoration: none; }
+    a { color: #000;}
+  
+    nav {
+      width: auto;
+      height: auto;
+      padding-top: 3%;
+      font-size: 20px;
+      background-color: red;
+      position: relative;
+      animation-name: example;
+      animation-duration: 6s;
+      animation-iteration-count: infinite;
+      animation-delay: 0s;
+    
+    }
+    
+
+
+     
+     
