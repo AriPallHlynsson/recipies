@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Matur</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">     
+    <link rel="stylesheet" href="/styles.css">
+    <style>/* Flex styles -------------------------------------------------*/
+
+
+
+</style>
+
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <p style="text-align:left;">
+                      
+<div class="dropdown">
+  
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <a href="#about">Ass</a>
+    <a href="#base">Base</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+    <a href="#custom">Custom</a>
+    <a href="#support">Support</a>
+    <a href="#tools">Tools</a>
+  
+  </div>
+</div>
+</span>
+       
+        <span style="float:right;">
+            <a href="/verkefni4.html"><span class="icon-menu"></span>
+            Extras</a>
+            <a href=""><span class="icon-coffee"></span>
+            Starters</a>
+          <a href=""><span class="icon-spoon-knife"></span>
+          Main Courses</a>
+      
+                        
+   
+          
+        
+        </span>
+    </p>
+      
+    </header>
+    
+  </p>
+  <span style="float:right;">
+  <div class = "ad">
+    
+    <img src="https://i.ebayimg.com/images/g/ioIAAOSwJPReV~hK/s-l400.jpg" alt="Paris"style="width:100%;height:100%;" >
+    
+  </ad>
+ </div>
+    
+     </span>
+  
+      <img src="/fonts/my-recipes.svg" alt="Icon" style="width:75%;height:75%;">
+     <p></p><article>
+      <section class="texti">
+        Í 4. verkefni búum við til nýja forsíðu á uppskriftarvefinn
+        og notum SVG tákn í lógó og leturtákn í
+        efnisyfirliti. Til að byrja með notum við vefsíðurnar úr 3. verkefni sem undirsíður og höfum aðra tengla í
+          efnisyfirlitinu óvirka. 
+        </p>
+       
+          </article>
+      
+    <main>
+  
+
+
+      </section>
+      <section class="cards">
+        <article>
+          <img class="article-img" src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2014/05/beetroot-feta-grain-salad.jpg " alt="" />
+         
+        </article>
+        <article>
+          <img class="article-img" src="https://www.sprinklesandsprouts.com/wp-content/uploads/2014/12/Turkish-Bread-3.jpg" alt=" " />
+          
+        </article>
+        <article>
+          <img class="article-img" src="https://thenypost.files.wordpress.com/2018/11/turkey-dinner-costing-new-yorkers-22-percent-more-this-year.jpg?quality=80&strip=all" alt=" " />
+          
+        </article>
+        <article>
+          <img class="article-img" src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2018/09/dessert-main-image-molten-cake.jpg" alt=" " />
+         
+        </article>
+        
+            </section>
+            
+            </main>
+  </body>
+  </html>
+  <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    function filterFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      div = document.getElementById("myDropdown");
+      a = div.getElementsByTagName("a");
+      for (i = 0; i < a.length; i++) {
+        txtValue = a[i].textContent || a[i].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          a[i].style.display = "";
+        } else {
+          a[i].style.display = "none";
+        }
+      }
+    }
+    </script>
